@@ -1,0 +1,59 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+1. ASK for a number
+2. STORE input from 1 in a variable named num
+3. IF (num % 2 == 0), THEN PRINT "Even"
+4. ELSE PRINT "ODD"
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+**Steps for getting 5 numbers**
+1. DO the following sub-steps 5 times:
+	A. ASK for number
+	B. STORE input from A in a variable named (num1 - num5)
+
+**Steps for getting average**
+2. SUM num1, num2, num3, num4, num5
+3. STORE result from Step 2 in a variable named sum
+4. DIVIDE sum by 5
+5. STORE result from Step 4 in a variable named average
+
+**Steps for finding smallest**
+6. COMPARE num1 and num2 AND RETURN smallest
+7. COMPARE Step 6 Result and num3, RETURN smallest
+8. COMPARE Step 7 Result and num4, RETURN smallest
+9. COMPARE Step 8 Result and num5, RETURN smallest
+10. STORE Step 9 Result as a variable  named smallestNum
+
+**Steps for finding largest**
+11. COMPARE num1 and num2 AND RETURN largest
+12. COMPARE Step 6 Result and num3, RETURN largest
+13. COMPARE Step 7 Result and num4, RETURN largest
+14. COMPARE Step 8 Result and num5, RETURN largest
+15. STORE Step 9 Result as a variable  named largestNum
+
+**Steps for writing results**
+16. PRINT `The average of ${num1}, ${num2}, ${num3}, ${num4}, ${num5} is ${average}.`
+17. PRINT `The smallest of ${num1}, ${num2}, ${num3}, ${num4}, ${num5} is ${smallestNum}.`
+18. PRINT `The largest of ${num1}, ${num2}, ${num3}, ${num4}, ${num5} is ${largestNum}.`
+
+Note: ${} means show the value of the variable enclosed in the curly brackets. 
+-- END --
